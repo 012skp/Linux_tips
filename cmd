@@ -1,2 +1,3 @@
 finger: shows users logged on the system
 sendmail: readabout it...
+ 
