@@ -1,2 +1,12 @@
 git clone https://github.com/<username>/<repo>
 git config credential.helper store
+
+# Adding an existing folder named "abc" to github 
+# Create a new Repo on github let say "abc_repo"
+# Go to your "abc" folder, and type following commands
+git init
+git add *
+git commit -m "first commit"
+git remote add origin https://github.com/<username>/abc_repo.git
+git push -u origin master
+

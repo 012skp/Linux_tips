@@ -10,3 +10,18 @@ crontab -e: Set task sheduler
 	<min> <hr> <dom> <mon> <week> command
 
 
+#####################################################################################
+###  File Transfer using scp  ######
+scp [source] [desination]
+# source and desination is of type [remote-username]@[remote-hostname]:<path-to-file>
+			scp a.cc swargam@10.10.12.66:/home/swargam/Desktop/
+
+
+
+#####################################################################################
+###	Stream Editor using sed ######
+sed -i 's/[regex]/[replacement]/'
+
+
+
+
