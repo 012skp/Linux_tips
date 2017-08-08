@@ -24,4 +24,8 @@ sed -i 's/[regex]/[replacement]/'
 
 
 
+#####################################################################################
+### Starting HTTP WebServer on certain port to access whole PC. ####
+python -m SimpleHTTPServer 8080
+
 
