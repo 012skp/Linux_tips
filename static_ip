@@ -1,0 +1,15 @@
+# open "/etc/network/interfaces" file 
+# and insert the following lines.
+
+
+auto <interface>
+iface <interface> static
+	address <ip_addr you want>
+	netmask <netmask of your network>
+	network <network addr>
+	broadcast <broadcast addr>
+	gateway <ip of you gateway>
+	dns-nameservers 8.8.8.8 4.4.4.4
+
+
+
