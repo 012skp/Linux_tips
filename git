@@ -1,6 +1,16 @@
+# First time global configuration for whole system 
+git config --global user.email "you@example.com"
+git config --global user.name "username"
+# Omit --global to set the identity only in this repository
+
+# Now clone any repository.
 git clone https://github.com/<username>/<repo>
 git config credential.helper store
 git push -u origin master
+# Here it will ask for your password and your credential will be stored.
+
+
+
 # Adding an existing folder named "abc" to github 
 # Create a new Repo on github let say "abc_repo"
 # Go to your "abc" folder, and type following commands
@@ -9,4 +19,8 @@ git add *
 git commit -m "first commit"
 git remote add origin https://github.com/<username>/abc_repo.git
 git push -u origin master
+# Again your credentials must be stored to do commit in the repo.
+
+
+
 
