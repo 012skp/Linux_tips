@@ -19,8 +19,9 @@ git add *
 git commit -m "first commit"
 git remote add origin https://github.com/<username>/abc_repo.git
 git push -u origin master
-# Again your credentials must be stored to do commit in the repo.
 
+# Again your credentials must be stored in global .gitconfig to do commit in the repo.
 
-
+# updates all your changes
+git add -u
 

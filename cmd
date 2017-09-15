@@ -47,4 +47,8 @@ Enabling port_forwarding
 			echo 1 > /proc/sys/net/ipv4/ip_forward
 
 
+##################################################################################
+Scanning Windows PCs in LAN
+			nbtscan 10.10.12.0/23
+
 
